@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Web-developer</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-box">
+            <div class="logo">
+                <a class="logo-text" href="">It </br>
+                    House</a>
+            </div>
+            <div class="menu">
+                <div class="menu-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="menu_info">
+                    <ul class="menu-item">
+                        <li class="item-box"><a class="item" href="#">Главная</a></li>
+                        <li class="item-box"><a class="item" href="#AboutMe">Обо мне</a></li>
+                        <li class="item-box"><a class="item" href="#MyWorks">Мои работы</a></li>
+                        <li class="item-box"><a class="item" href="#MyContacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-title">
+            <h1 id="text3d" id="letterpress">Web-developer</h1>
+        </div>
+    </header>
+    <div class="about">
+        <h2 id="AboutMe" сlass="about-title">Обо мне</h2>
+        <div class="about-box">
+            <div class="block-img">
+                <img class="about-img" src="./img/web_developer.jpg" alt="Foto web-developer">
+            </div>
+            <div class="block-text">
+                <p class="about-text">
+                    Раз уж вы зашли на мой сайт, давайте знакомиться. Я - начинающий веб-разработчик. Создаю сайты и
+                    письма с нуля, а также дорабатываю существующие.
+                </p>
+                <p class="about-text">
+                    В программирование пришёл благодаря интересу. Всегда хотелось узнать, как сайт выглядит изнутри и
+                    быть причастным к этой магии. Все началось, как у большинства, с простой программы notepad, пробовал
+                    писать свой первый код и вывести в окне браузера. Постепенно код за кодом втянулся в процесс.
+                </p>
+                <p class="about-text">
+                    Прошел несколько курсов по веб-разработке от Нетологии и продолжаю обучаться. Владею HTML, CSS, SASS
+                    (SCSS), WEBPACK, GIT, адаптивной версткой, кроссбраузерной версткой, табличной версткой, БЭМ и
+                    основами JS.
+                </p>
+                <p class="about-text">
+                    Как фрилансер могу быть полезен людям и компаниям, которым нужен верстальщик на удалёнке. Работу
+                    выполняю качественно и в срок.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="works">
+        <h2><svg viewBox="0 0 960 300">
+                <symbol id="s-text">
+                    <text id="MyWorks" text-anchor="middle" x="50%" y="50%">Мои работы</text>
+                </symbol>
+
+                <g class="g-ants">
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                    <use xlink:href="#s-text" class="text-copy"></use>
+                </g>
+            </svg></h2>
+        <div class="works-block">
+            <div class="ant-carousel">
+                <div class="ant-carousel-hider">
+                    <ul class="ant-carousel-list">
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/mq-diplom/"
+                                target="blanck"><img class="img-works" src="./img/blog_works.png" alt="My Works"></a>
+                            <p class="carousel-text">Работа №1</p>
+                        </li>
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/jobs/"
+                                target="blanck"><img class="img-works" src="./img/jobs_works.png" alt="My Works"></a>
+                            <p class="carousel-text">Работа №2</p>
+                        </li>
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/car-wash/"
+                                target="blanck"><img class="img-works" src="./img/car-wash_works.png"
+                                    alt="My Works"></a>
+                            <p class="carousel-text">Работа №3</p>
+                        </li>
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/Email-cod/"
+                                target="blanck"><img class="img-works" src="./img/email_works.png" alt="My Works"></a>
+                            <p class="carousel-text">Работа №4</p>
+                        </li>
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/E-mail-mjml/"
+                                target="blanck"><img class="img-works" src="./img/email-mjml_works.png"
+                                    alt="My Works"></a>
+                            <p class="carousel-text">Работа №5</p>
+                        </li>
+                        <li class="ant-carousel-element"><a href="https://lap-dmitry.github.io/Email-push/"
+                                target="blanck"><img class="img-works" src="./img/email-push_works.png"
+                                    alt="My Works"></a>
+                            <p class="carousel-text">Работа №6</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ant-carousel-arrow-left"><span class="material-icons">
+                        arrow_back_ios
+                    </span></div>
+                <div class="ant-carousel-arrow-right"><span class="material-icons">
+                        arrow_forward_ios
+                    </span></div>
+                <div class="ant-carousel-dots"></div>
+            </div>
+        </div>
+    </div>
+    <footer id="MyContacts" class="footer">
+        <h2 class="contact-title">
+            <span class="title-box">
+                <div class="title-letter">К</div>
+                <div class="title-letter">О</div>
+                <div class="title-letter">Н</div>
+                <div class="title-letter">Т</div>
+                <div class="title-letter">А</div>
+                <div class="title-letter">К</div>
+                <div class="title-letter">Т</div>
+                <div class="title-letter">Ы</div>
+            </span>
+        </h2>
+        <div class="contact">
+            <nav class="social">
+                <ul class="socials">
+                    <li class="item-social"><a href="https://vk.com/dmitriy375" target="blank"><img class="social-img"
+                                src="./img/vk.png" alt="VKontacte"></a></li>
+                    <li class="item-social"><a href="https://www.instagram.com/dmitry_web_developer/" target="blank"><img
+                                class="social-img" src="./img/instagram.png" alt="Instagram"></a></li>
+                    <li class="item-social"><a href="https://t.me/Dmitry_Web_Developer" target="blank"><img class="social-img"
+                                src="./img/send.png" alt="Send"></a></li>
+                    <li class="item-social"><a href="https://www.facebook.com/dmitryWebDeveloper" target="blank"><img
+                                class="social-img" src="./img/facebook.png" alt="Facebook"></a></li>
+                    <li class="item-social"><a href="mailto:lapshin.dm56@gmail.com" target="blank"><img class="social-img"
+                                src="./img/email.png" alt="E-mail"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
