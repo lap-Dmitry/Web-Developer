@@ -1,13 +1,3 @@
-// MenuBurger Open
-const menuBurger = document.querySelector('.menu');
-const menuOpen = document.querySelector('.menu-burger');
-const menu = document.querySelector('.menu_info');
-
-menuBurger.onclick = () => {
-	menu.classList.toggle('menu_info__active');
-	menuOpen.classList.toggle('menu-burger__active');
-}
-
 // carousel:active
 
 function Ant(crslId) {
